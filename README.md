@@ -21,33 +21,22 @@ Android
 
 `~/android/app/src/main/AndroidManifest.xml`
 ```xml
+<intent-filter>
 ...
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <category android:name="android.intent.category.BROWSABLE"/>
+    <data android:scheme="abcdefg"/>
 ...
-<uses-permission android:name="android.permission.INTERNET"/>
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-...
-<application
-...
-    tools:node="replace">
-<activity
-...>
-    <intent-filter>
-        <action android:name="android.intent.action.MAIN"/>
-        <category android:name="android.intent.category.LAUNCHER"/>
-        <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:scheme="${AppKey}"/>
-    </intent-filter>
-</activity>
-...
-    <meta-data android:name="com.openinstall.APP_KEY" android:value="${AppKey}"/>
-...
-</application>
-</manifest>
+</intent-filter>
 ```
 
-
-
+`~/andriod/app/build.gradle`
+```
+defaultConfig {
+...
+manifestPlaceholders += [ 'OPENINSTALL_APPKEY': 'abcdefg' ]
+...
+}
+```
 
 iOS
 --
