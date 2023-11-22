@@ -18,17 +18,6 @@ Using `FlutterOpenInstallPlugin` static methods
 
 Android
 --
-
-`~/android/app/src/main/AndroidManifest.xml`
-```xml
-<intent-filter>
-...
-    <category android:name="android.intent.category.BROWSABLE"/>
-    <data android:scheme="abcdefg"/>
-...
-</intent-filter>
-```
-
 `~/andriod/app/build.gradle`
 ```
 defaultConfig {
