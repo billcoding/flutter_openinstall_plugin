@@ -8,6 +8,7 @@ The openinstall flutter plugin upgraded based on `https://github.com/OpenInstall
 - Upgrade Gradle daemon to `7.5`
 - Upgrade Gradle build plugin to `7.3.0`
 - Upgrade Flutter SDK to `>=3.2.0 <4.0.0`
+- Upgrade Android channel methods async supported
 
 # Integrations
 
