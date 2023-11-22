@@ -14,7 +14,7 @@ The flutter plugin for openinstall upgraded based on https://github.com/OpenInst
 
 Flutter
 --
-Using `FlutterOpeninstallPlugin`
+Using `FlutterOpenInstallPlugin` static methods
 
 Android
 --
