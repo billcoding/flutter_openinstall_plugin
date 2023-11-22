@@ -2,7 +2,7 @@
 The flutter plugin for openinstall upgraded based on https://github.com/OpenInstall/openinstall-flutter-plugin
 
 # Features
-- Android upgrades to Koltin
+- Android upgrades to Kotlin
 - iOS upgrades to swift
 - Upgrade Kotlin to `1.7.10`
 - Upgrade Gradle daemon to `7.5`
