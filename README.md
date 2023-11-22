@@ -14,7 +14,7 @@ The openinstall flutter plugin upgraded based on `https://github.com/OpenInstall
 
 Flutter
 --
-Using `OpeninstallFlutterPlugin`
+Using `FlutterOpeninstallPlugin`
 
 Android
 --
