@@ -1,5 +1,5 @@
 # flutter_openinstall_plugin
-The openinstall flutter plugin upgraded based on `https://github.com/OpenInstall/openinstall-flutter-plugin`
+The flutter plugin for openinstall upgraded based on https://github.com/OpenInstall/openinstall-flutter-plugin
 
 # Features
 - Android upgrades to Koltin
